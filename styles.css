@@ -135,14 +135,6 @@ body{
     padding: 2px 16px;
 }
 
-.aboutsocials{
-    position: fixed;
-    margin-top: 1.5em;
-    width: 100%;
-    background-color: #FF7C29;
-    height: 100px;
-}
-
 .aboutsocials ul {
     width: 100%;
     text-align: center;
@@ -165,6 +157,40 @@ body{
 .aboutsocials ul li a:hover{
     color: #CB6CE6;
 }
+
+#formStyle{
+    display: flexbox;
+    width: 50%;
+    bottom: 0%;
+    height: max-content;
+}
+
+.form-group{
+    width: 60%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#cardbox{
+    width: 50%;
+}
+
+#message{
+    min-height: 6rem;
+}
+
+#flexbox{
+    display: flex;
+    height: 32rem;
+    bottom: 0;
+}
+
+.galleryimages{
+    margin-top: 5rem;
+    width: 50%;
+}
+
 @media screen and (max-width: 640px) {
 
 }
